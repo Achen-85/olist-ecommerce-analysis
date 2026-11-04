@@ -63,15 +63,12 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 数据包含订单、商品明细、商品信息、客户信息和商品品类翻译等 CSV
 文件。请从 Kaggle 数据集页面下载并按下方目录结构放置。
 
-> 本仓库默认不提交原始 CSV
-> 数据文件。这样可以避免仓库体积过大，并让数据来源与项目代码保持分离。面试官可以通过上方数据来源链接了解并获取原始数据。
-
 ## 项目目录
 
 ``` text
 olist-ecommerce-analysis/
 ├── data/
-│   └── raw/                         # 本地存放 Kaggle 原始 CSV，不上传 GitHub
+│   └── raw/                         # 本地存放 Kaggle 原始 CSV
 ├── notebooks/
 │   └── sales_analysis.ipynb         # 核心分析 Notebook
 ├── images/
@@ -96,7 +93,7 @@ olist-ecommerce-analysis/
 ### 1. 克隆仓库
 
 ``` bash
-git clone https://github.com/<你的GitHub用户名>/olist-ecommerce-analysis.git
+git clone https://github.com/Achen-85/olist-ecommerce-analysis.git
 cd olist-ecommerce-analysis
 ```
 
